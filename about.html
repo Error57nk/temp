@@ -2,116 +2,302 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <script src="https://kit.fontawesome.com/0b44cc4176.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/main.css" />
+  <title>Dulhan - Beauty salon & Cosmetic Shop</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Dulhan - Beauty salon & Cosmetic Shop">
+  <meta name="keywords" content="Dulhan, lakhisrai">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link href="img/favicon.png" rel="shortcut icon" />
 
-  <title>Dulhan</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/jquery-ui.min.css" />
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <link rel="stylesheet" href="css/owl.carousel.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+
 </head>
 
 <body>
-  <div id="header-inner">
+  <!-- Page Preloder -->
+  <div id="preloder">
+    <div class="loader"></div>
+  </div>
+  <!-- Top nav  -->
+
+  <div class="container">
+    <div class="top-nav">
+      <div class="left ">
+        <a href="" class="d-none d-sm-none d-md-block"><i class="fa fa-envelope"></i> dulhan@gmail.com</a>
+        <a href="tel:+918877691098"><i class="fa fa-phone"> </i> +91 88776 91098</a>
+      </div>
+      <div class="right social d-none d-sm-none d-md-block">
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-youtube-play"></i></a>
+        <a href=""><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Header section -->
+  <div class="head-container">
     <div class="container">
-      <nav id="main-nav">
-        <img src="Pic/banner.png" alt="Dulhan" id="logo" />
-
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="shop.html">Shop</a></li>
-          <li><a href="about.html" class="current">About</a></li>
-          <li><a href="services.html">Services</a></li>
-        </ul>
-      </nav>
+      <header class="header-section">
+        <div class="header-warp">
+          <!-- logo -->
+          <a href="index.html" class="site-logo">
+            <img src="img/banner.png" alt="Dulhan Parlor" class="logo-img">
+          </a>
+          <div class="">
+            <!-- responsive -->
+            <div class="nav-switch">
+              <i class="fa fa-bars"></i>
+            </div>
+            <!-- Navigation Menu -->
+            <ul class="main-menu">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li class="n-hidden"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="header-right">
+              <!-- <a href="" class="site-btn sb-line sb-big">+345 322 445 7789</a> -->
+              <a href="contact.html" class="site-btn sb-big">Book an Appointment</a>
+            </div>
+          </div>
+        </div>
+      </header>
     </div>
   </div>
 
-  <!-- Card -->
-  <div class="card-container container">
-    <h4 class="py-2 section-title">Rena Pandit</h4>
-    <div class="bottom-line"></div>
-    <div class="card">
-      <div class="card-pic">
-        <img src="Pic/id1.jpg" alt="Pic" />
-      </div>
-      <div class="card-lead">
-        <p class="lead">
-          I am Rena beauty therapist and have been working in the field since 2008 as a beautician. I have secured a
-          wealth of expertise and knowledge during this time and have built up a reputation for excellence and
-          perfection.
-
-          I specialise in bridal hair, make-up and nail technician , however I am not limited to this.... <br><i
-            class="fab fa-whatsapp fa-2x"> +91 8877894835</i>
-        </p>
-      </div>
+  <!-- Page info section -->
+  <section class="page-info-section set-bg" data-setbg="img/page-top-bg/1.jpg">
+    <div class="container text-center">
+      <h2>About Us</h2>
     </div>
-  </div>
-  </div>
-  <div class=" card-container container">
-    <h4 class="py-2 section-title">Sunil Pandit</h4>
-    <div class="bottom-line"></div>
-    <div class="card">
-      <div class="card-lead">
-        <p class="lead">
-          Product consultent and supplier Provides first-class product by answering any questions the consumer might
-          have about a product. Acts as an expert in selling goods to consumers that meet their needs and desires. <br>
-          <i class="fab fa-whatsapp fa-2x"> +91 8877691098</i>
-        </p>
-      </div>
-      <div class="card-pic">
-        <img src="Pic/id2.jpeg" alt="Pic" />
+  </section>
+  <!-- Page info section end -->
 
-      </div>
-    </div>
-  </div>
-  <!-- Location -->
-  <div>
+
+  <!-- about section -->
+  <section class="about-section spad">
     <div class="container">
-      <h2 class="section-title">Visit Us</h2>
-      <div class="bottom-line"></div>
-      <div class="map-1">
-        <img src="Pic/map.PNG" alt="MAp">
-        <h2 class="text-center py-3">Inside Sri Ram Market near Chowk, Lakhisarai, Bihar 811311</h2>
+      <div class="row about-box">
+        <div class="col-md-6 about-img">
+          <img src="img/about-1.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+          <div class="about-content">
+            <h2>Welcome to Dulhan</h2>
+            <h4>We care about your beauty and your well-being.</h4>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="row about-box">
+        <div class="col-md-6 about-img col-push">
+          <img src="img/about-2.jpg" alt="">
+        </div>
+        <div class="col-md-6 col-pull">
+          <div class="about-content">
+            <h2>Inspire</h2>
+            <p>Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in
+              libero pretium interdum. Nullam volutpat dui sem, ac congue purus hendrerit, id lobortis leo luctus nec.
+            </p>
+
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+  <!-- about section end -->
 
-  <!-- conatct -->
 
-  <!-- <div id="contact">
+
+
+
+
+  <!-- timetable section -->
+  <section class="timetable-section">
     <div class="container">
-      <form name="contact" method="POST" data-netlify="true" class="contact-form">
-        <input type="text" name="name" id="name" placeholder="Name" />
-        <input type="email" name="email" id="mail" placeholder="Your Mail@id" />
-        <input type="text" name="Subjects" id="sub" placeholder="Query Subjects" />
-        <textarea name="message" id="msg" cols="20" rows="10" placeholder="Your Message"></textarea>
-        <input type="submit" id="btn" value="Submit" class="btn" />
-      </form>
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="ts-title">Quick Info</h2>
+          <div id="accordion" class="accordion-area about-accordion">
+            <div class="panel">
+              <div class="panel-header" id="headingOne">
+                <button class="panel-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="false"
+                  aria-controls="collapse1">Sed sagittis luctus odio quis malesuada.</button>
+              </div>
+              <div id="collapse1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="panel-body">
+                  <p>Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in
+                    libero pretium interdum nullam volutpat dui sem.</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="panel-header active" id="headingTwo">
+                <button class="panel-link active" data-toggle="collapse" data-target="#collapse2" aria-expanded="true"
+                  aria-controls="collapse2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</button>
+              </div>
+              <div id="collapse2" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="panel-body">
+                  <p>Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in
+                    libero pretium interdum nullam volutpat dui sem.</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="panel-header" id="headingThree">
+                <button class="panel-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="false"
+                  aria-controls="collapse3">Mauris aliquet neque ac erat tempus, non sagittis.</button>
+              </div>
+              <div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="panel-body">
+                  <p>Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in
+                    libero pretium interdum nullam volutpat dui sem.</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="panel-header" id="headingFour">
+                <button class="panel-link" data-toggle="collapse" data-target="#collapse4" aria-expanded="false"
+                  aria-controls="collapse4">Sed sagittis luctus odio quis malesuada.</button>
+              </div>
+              <div id="collapse4" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="panel-body">
+                  <p>Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in
+                    libero pretium interdum nullam volutpat dui sem.</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="panel-header" id="headingFive">
+                <button class="panel-link" data-toggle="collapse" data-target="#collapse5" aria-expanded="false"
+                  aria-controls="collapse5">Sed sagittis luctus odio quis malesuada.</button>
+              </div>
+              <div id="collapse5" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                <div class="panel-body">
+                  <p>Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in
+                    libero pretium interdum nullam volutpat dui sem.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="ts-title">Opening Hours</h2>
+          <div class="timetable-card">
+            <img src="img/clock.png" alt="">
+            <ul>
+              <li><span>Monday-Sunday:</span>09:00 - 8:30</li>
+
+            </ul>
+            <a href="contact.html" class="site-btn">Get Directions</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div> -->
+  </section>
+  <!--  timetable section end -->
+
+
+
+
+  <!-- Footer section -->
+  <footer class="footer-section set-bg" data-setbg="img/bg-2-dark.jpg">
+    <div class="container">
+      <div class="footer-warp">
+        <div class="footer-widgets">
+          <div class="row">
+
+            <div class="col-xl-2 col-lg-2 col-md-2">
+
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8">
+              <div class="footer-widget about-widget text-center">
+                <img src="img/banner.png" alt="Dulhan Parlor & Cosmetic Store">
+                <p>Shri Ram Market Near chowk, Naya Baazar, Likhisrai,</p>
+                <div class="fw-social">
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="footer-nav mt-3">
+                <ul class="text-center">
+                  <li class="text-center"><a href="">Home</a></li>
+                  <li class="text-center"><a href="">About us</a></li>
+                  <li class="text-center"><a href="">Services</a></li>
+                  <li class="text-center"><a href="">Gallery</a></li>
+                  <li class="text-center"><a href="">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- <div class="col-xl-2 col-lg-2 col-md-2">
+
+						</div> -->
+            <!-- <div class="col-xl-4 col-lg-4 col-md-4">
+							<div class="footer-widget list-widget">
+								<h4 class="fw-title"><i class="flaticon-009-makeup-5"></i>Our Services</h4>
+								<ul>
+									<li><a href="">Manicure</a></li>
+									<li><a href="">Pedicure</a></li>
+									<li><a href="">Massage</a></li>
+									<li><a href="">Hair Dressing</a></li>
+									<li><a href="">Spa</a></li>
+									<li><a href="">Pedicure</a></li>
+									<li><a href="">Beauty treatments </a></li>
+								</ul>
+								<ul>
+									<li><a href="">Wedding Hair</a></li>
+									<li><a href="">Manicure</a></li>
+									<li><a href="">Pedicure</a></li>
+									<li><a href="">Massage</a></li>
+									<li><a href="">Hair Dressing</a></li>
+									<li><a href="">Botox</a></li>
+									<li><a href="">Slimming </a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-2 col-lg-2 col-md-2">
+
+						</div> -->
+
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="float-left white foot-0">Copyright &copy; 2020 Dulhan</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="float-right foot-0"><a href="" class="white">Design bY : TECH NICK</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- Footer section end -->
+
+
+  <!--====== Javascripts & Jquery ======-->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/circle-progress.min.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
-<!-- Contact -->
-
-<!-- Footer -->
-<footer id="main-footer">
-  <div class="footer-content container">
-    <p>Copyright &copy; 2019. All Right Reserve &nbsp</p>
-    <p><a class="mylink" href="https://www.linkedin.com/in/nitesh-kr/">
-        &nbsp
-        Devloped
-        by <i class="fab fa-android"> Nitesh </i>&nbsp &nbsp</a></p>
-    <div class="social">
-      <i class="fab fa-facebook"></i>
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-linkedin"></i>
-    </div>
-  </div>
-</footer>
-
-
-
 
 </html>

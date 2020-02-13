@@ -2,82 +2,294 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <script src="https://kit.fontawesome.com/0b44cc4176.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/main.css" />
+  <title>Dulhan - Beauty salon & Cosmetic Shop</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Dulhan - Beauty salon & Cosmetic Shop">
+  <meta name="keywords" content="Dulhan, lakhisrai">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link href="img/favicon.png" rel="shortcut icon" />
 
-  <title>Dulhan</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/jquery-ui.min.css" />
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <link rel="stylesheet" href="css/owl.carousel.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+
 </head>
 
 <body>
-  <div id="header-home">
-    <div class="container">
-      <nav id="main-nav">
-        <img src="Pic/banner.png" alt="Dulhan" id="logo" />
+  <!-- Page Preloder -->
+  <div id="preloder">
+    <div class="loader"></div>
+  </div>
+  <!-- Top nav  -->
 
-        <ul>
-          <li><a href="index.html" class="current">Home</a></li>
-          <li><a href="shop.html">Shop</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-        </ul>
-      </nav>
-      <div class="header-content">
-        <h1 id="text-banner">
-          Dulhan
-          <span class="txt-type" data-wait="3000"
-            data-words='["Beauty Parlour", "Cosmetics", "Jewellery", "Wedding Makeup"]'></span>
-        </h1>
-        <p class="lead">All types of Beauty Products</p>
-        <a href="shop.html" class="btn-light">Visit Shop</a>
+  <div class="container">
+    <div class="top-nav">
+      <div class="left ">
+        <a href="" class="d-none d-sm-none d-md-block"><i class="fa fa-envelope"></i> dulhan@gmail.com</a>
+        <a href="tel:+918877691098"><i class="fa fa-phone"> </i> +91 88776 91098</a>
+      </div>
+      <div class="right social d-none d-sm-none d-md-block">
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-youtube-play"></i></a>
+        <a href=""><i class="fa fa-linkedin"></i></a>
       </div>
     </div>
   </div>
-  </div>
 
-  <!-- Product Section -->
-  <section id="Product">
+
+  <!-- Header section -->
+  <div class="head-container">
     <div class="container">
-      <h2 class="section-title">Products Available</h2>
-      <div class="bottom-line"></div>
-      <p class="lead text-center">check out some</p>
-      <div class="product-grid">
-        <img src="Pic/product/w-l2.jpg" alt="">
-        <div class="product">
-          <img src="Pic/product/w (1).jpeg" alt="Items">
-          <img src="Pic/product/w-l.jpg" alt="Items">
-          <img src="Pic/product/w (2).jpeg" alt="Items">
+      <header class="header-section">
+        <div class="header-warp">
+          <!-- logo -->
+          <a href="index.html" class="site-logo">
+            <img src="img/banner.png" alt="Dulhan Parlor" class="logo-img">
+          </a>
+          <div class="">
+            <!-- responsive -->
+            <div class="nav-switch">
+              <i class="fa fa-bars"></i>
+            </div>
+            <!-- Navigation Menu -->
+            <ul class="main-menu">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li class="n-hidden"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="header-right">
+              <!-- <a href="" class="site-btn sb-line sb-big">+345 322 445 7789</a> -->
+              <a href="contact.html" class="site-btn sb-big">Book an Appointment</a>
+            </div>
+          </div>
         </div>
-        <img src="Pic/product/hp.png" alt="">
-        <div class="product">
-          <img src="Pic/product/w (3).jpeg" alt="items">
-          <img src="Pic/product/w-l3.jpg" alt="items">
-          <img src="Pic/product/w (4).jpeg" alt="items">
+      </header>
+    </div>
+  </div>
+  <!-- Header section end -->
+
+
+  <!-- Hero section -->
+  <section class="hero-section set-bg">
+    <div class="hero-slider owl-carousel">
+      <div class="hs-item">
+        <img src="img/banner/1.jpg" alt="Dulhan" class="img-responsive">
+      </div>
+      <div class="hs-item">
+        <img src="img/banner/2-b.jpg" alt="Dulhan">
+      </div>
+      <div class="hs-item">
+        <img src="img/banner/5.jpg" alt="Dulhan">
+      </div>
+      <div class="hs-item">
+        <img src="img/banner/3.jpg" alt="Dulhan">
+      </div>
+      <div class="hs-item">
+        <img src="img/banner/2.jpg" alt="Dulhan">
+      </div>
+    </div>
+  </section>
+  <!-- Hero section end -->
+
+
+  <!-- intro section -->
+
+  <section class="intro-section  set-bg" data-setbg="img/intro-bg.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="intro-content">
+            <h2 class="line-tag">Why Choose Us?</h2>
+            <p>We strongly believe that every Woman has unique beauty requirements regarding her own looks and we want
+              each lady to look her best. Adding dazzle to your beauty is what we strive for. We as Make-Up
+              professionals are pioneers in the field of beauty and health research and aspire to not only enhance your
+              beauty, but also provide you with our expert advice for keeping your skin, hair and body naturally
+              healthy, fit and radiating that special charm from within. We at Feminaz Beauty Zone are here to make you
+              meet a more fabulous and gorgeous version of ‘YOU’.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- intro section end -->
+
+
+  <!-- Services section -->
+  <section class="services-section  set-bg" data-setbg="img/service-bg.png">
+    <div class="container">
+      <div class="section-title text-white">
+        <h2>Our Services</h2>
+      </div>
+      <div class="row">
+        <!-- service -->
+        <div class="col-md-4 col-sm-6 service text-center">
+          <div class="service-item">
+            <i class="flaticon-016-woman"></i>
+            <h4>Hair Dressing</h4>
+          </div>
+        </div>
+        <!-- service -->
+        <div class="col-md-4 col-sm-6 service text-center">
+          <div class="service-item">
+            <i class="flaticon-017-soap"></i>
+            <h4>Facial</h4>
+          </div>
+        </div>
+        <!-- service -->
+        <div class="col-md-4 col-sm-6 service text-center">
+          <div class="service-item">
+            <i class="flaticon-009-makeup-5"></i>
+            <h4>Manicure & Pedicure</h4>
+          </div>
+        </div>
+        <!-- service -->
+        <div class="col-md-4 col-sm-6 service text-center ">
+
+
+          <div class="service-item">
+            <i class="flaticon-048-makeup"></i>
+            <h4>Make Up</h4>
+          </div>
+        </div>
+
+        <!-- service -->
+        <div class="col-md-4 col-sm-6 service text-center">
+          <div class="service-item">
+            <i class="flaticon-045-eyelid"></i>
+            <h4>Bleaching</h4>
+          </div>
+        </div>
+        <!-- service -->
+        <div class="col-lg-4 col-md-3 service text-center">
+          <div class="service-item">
+            <i class="flaticon-015-facial-mask"></i>
+            <h4>Spa Treatments</h4>
+          </div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Shop secrtion -->
-  <section id="Shop-product">
+  <!-- Services section end -->
+  <section class="helth">
+    <img src="img/banner/harbal.jpg" alt="herbal life" class="img-responsive">
     <div class="container">
-      <h2 class="section-title">Products Available</h2>
-      <div class="bottom-line"></div>
-      <p class="lead text-center">check out some</p>
-      <div class="shop-grid">
-        <div class="product">
-          <img src="Pic/product/shop (1).jpeg" alt="shop_poduct">
-          <img src="Pic/product/shop (2).jpeg" alt="shop_poduct">
-          <img src="Pic/product/shop (3).jpeg" alt="shop_poduct">
 
-          <img src="Pic/product/shop (11).jpeg" alt="shop_poduct">
-          <img src="Pic/product/shop (12).jpeg" alt="shop_poduct">
-          <img src="Pic/product/shop (13).jpeg" alt="shop_poduct">
+      <div class="helth-grid">
 
+        <div class="item">
+          <div class="h-main">
+            <img src="img/banner/col-1.jpg" alt="Eat">
+          </div>
+          <div class="h-lead text-center bg-white">
+            <p>You will lose weight if you eat a low-calorie diet in which you burn off more calories than you take in,
+              and you will gain weight if you eat more calories than you burn off. Drink water a half hour before meals.
+            </p>
+            <a href="#" class="ask-btn">Ask Me How</a>
+          </div>
         </div>
+
+        <div class="item">
+          <div class="h-main">
+            <img src="img/banner/col-2.jpg" alt="Sleep">
+          </div>
+          <div class="h-lead text-center bg-green">
+            <p class="white">If you're trying to lose weight, the amount of sleep you get may be just as important as
+              your diet and exercise. Poor Sleep Is a Major Risk Factor for Weight Gain and Obesity</p>
+            <a href="#" class="ask-btn">Ask Me How</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="h-main">
+            <img src="img/banner/col-3.jpg" alt="shakes">
+          </div>
+          <div class="h-lead text-center bg-white">
+            <p>Combining cutting-edge science with delicious shakes, Herbalife’s Weight Management products can help you
+              lose those unwanted pounds.</p>
+            <a href="#" class="ask-btn">Ask Me How</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="h-main">
+            <img src="img/banner/col-4.jpg" alt="Repeat">
+          </div>
+          <div class="h-lead text-center bg-green">
+            <p class="white">Repeat exercise routines without compromising progress —don't cancel your class or quit
+              your strength training workout just yet! </p>
+            <a href="#" class="ask-btn">Ask Me How</a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center"><a href=""><img src="img/banner/logo-harbal.jpg" alt="Ask me how"
+            class="img-ask-btn"></a></div>
+    </div>
+  </section>
+
+  <section class="shop set-bg" data-setbg="img/bg-2.jpg">
+    <div class="container intro-content">
+      <h2 class="line-tag">Cheak Out Our Products</h2>
+      <div class="product-box">
+        <div class="item">
+          <div class="p-layer"><img src="img/banner.png" alt="Dulhan B/S"></div>
+          <img src="img/products/1.jpg" alt="">
+        </div>
+        <div class="item">
+          <div class="p-layer"><img src="img/banner.png" alt="Dulhan B/S"></div>
+          <img src="img/products/2.jpg" alt="">
+        </div>
+        <div class="item">
+          <div class="p-layer"><img src="img/banner.png" alt="Dulhan B/S"></div>
+          <img src="img/products/3.jpg" alt="">
+        </div>
+        <div class="item">
+          <div class="p-layer"><img src="img/banner.png" alt="Dulhan B/S"></div>
+          <img src="img/products/11.jpg" alt="">
+        </div>
+        <div class="item">
+          <div class="p-layer"><img src="img/banner.png" alt="Dulhan B/S"></div>
+          <img src="img/products/5.jpg" alt="">
+        </div>
+        <div class="item">
+          <div class="p-layer"><img src="img/banner.png" alt="Dulhan B/S"></div>
+          <img src="img/products/7.jpg" alt="">
+        </div>
+        <div class="item">
+          <div class="p-layer"><img src="img/banner.png" alt="Dulhan B/S"></div>
+          <img src="img/products/13.jpg" alt="">
+        </div>
+        <div class="item">
+          <div class="p-layer"><img src="img/banner.png" alt="Dulhan B/S"></div>
+          <img src="img/products/8.jpg" alt="">
+        </div>
+        <div class="item">
+          <div class="p-layer"><img src="img/banner.png" alt="Dulhan B/S"></div>
+          <img src="img/products/9.jpg" alt="">
+        </div>
+        <div class="item">
+          <div class="p-layer"><img src="img/banner.png" alt="Dulhan B/S"></div>
+          <img src="img/products/6.jpg" alt="">
+        </div>
+        <div class="item">
+          <div class="p-layer"><img src="img/banner.png" alt="Dulhan B/S"></div>
+          <img src="img/products/4.jpg" alt="">
+        </div>
+        <div class="item">
+          <div class="p-layer"><img src="img/banner.png" alt="Dulhan B/S"></div>
+          <img src="img/products/10.jpg" alt="">
+        </div>
+
       </div>
     </div>
   </section>
@@ -85,42 +297,124 @@
 
 
 
-
-  <!-- compny logo -->
-  <div class="company">
-    <div class="heading">
-      <h1 class="text-center py-1 section-title">Associated Products</h1>
-      <div class="bottom-line"></div>
-    </div>
-    <div id="brand">
-      <img src="Pic/cmpny/amway.png" alt="" class="brand-pic">
-      <img src="Pic/cmpny/unilever.jpg" alt="" class="brand-pic">
-      <img src="Pic/cmpny/modicare.jpg" alt="" class="brand-pic">
-      <img src="Pic/cmpny/harbal.png" alt="" class="brand-pic">
+  <!-- brands section -->
+  <div class="brands-section set-bg" data-setbg="img/brands-bg.jpg">
+    <div class="brands-slider owl-carousel">
+      <div class="bs-item">
+        <img src="img/brand/1.jpg" alt="brand">
+      </div>
+      <div class="bs-item">
+        <img src="img/brand/2.jpg" alt="brand">
+      </div>
+      <div class="bs-item">
+        <img src="img/brand/3.jpg" alt="brand">
+      </div>
+      <div class="bs-item">
+        <img src="img/brand/4.jpg" alt="brand">
+      </div>
+      <div class="bs-item">
+        <img src="img/brand/5.jpg" alt="brand">
+      </div>
+      <div class="bs-item">
+        <img src="img/brand/6.jpg" alt="brand">
+      </div>
+      <div class="bs-item">
+        <img src="img/brand/7.jpg" alt="brand">
+      </div>
+      <div class="bs-item">
+        <img src="img/brand/8.jpg" alt="brand">
+      </div>
     </div>
   </div>
-  <!--  -->
+  <!--  brands section end -->
 
+  <!-- Footer section -->
+  <footer class="footer-section set-bg" data-setbg="img/bg-2-dark.jpg">
+    <div class="container">
+      <div class="footer-warp">
+        <div class="footer-widgets">
+          <div class="row">
 
-  <!-- Footer -->
-  <footer id="main-footer">
-    <div class="footer-content container">
-      <p>Copyright &copy; 2019. All Right Reserve &nbsp</p>
-      <p><a class="mylink" href="https://www.linkedin.com/in/nitesh-kr/">
-          &nbsp
-          Devloped
-          by <i class="fab fa-android"> Nitesh </i>&nbsp &nbsp</a></p>
-      <div class="social">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-linkedin"></i>
+            <div class="col-xl-2 col-lg-2 col-md-2">
+
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8">
+              <div class="footer-widget about-widget text-center">
+                <img src="img/banner.png" alt="Dulhan Parlor & Cosmetic Store">
+                <p>Shri Ram Market Near chowk, Naya Baazar, Likhisrai,</p>
+                <div class="fw-social">
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="footer-nav mt-3">
+                <ul class="text-center">
+                  <li class="text-center"><a href="">Home</a></li>
+                  <li class="text-center"><a href="">About us</a></li>
+                  <li class="text-center"><a href="">Services</a></li>
+                  <li class="text-center"><a href="">Gallery</a></li>
+                  <li class="text-center"><a href="">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- <div class="col-xl-2 col-lg-2 col-md-2">
+
+						</div> -->
+            <!-- <div class="col-xl-4 col-lg-4 col-md-4">
+							<div class="footer-widget list-widget">
+								<h4 class="fw-title"><i class="flaticon-009-makeup-5"></i>Our Services</h4>
+								<ul>
+									<li><a href="">Manicure</a></li>
+									<li><a href="">Pedicure</a></li>
+									<li><a href="">Massage</a></li>
+									<li><a href="">Hair Dressing</a></li>
+									<li><a href="">Spa</a></li>
+									<li><a href="">Pedicure</a></li>
+									<li><a href="">Beauty treatments </a></li>
+								</ul>
+								<ul>
+									<li><a href="">Wedding Hair</a></li>
+									<li><a href="">Manicure</a></li>
+									<li><a href="">Pedicure</a></li>
+									<li><a href="">Massage</a></li>
+									<li><a href="">Hair Dressing</a></li>
+									<li><a href="">Botox</a></li>
+									<li><a href="">Slimming </a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-2 col-lg-2 col-md-2">
+
+						</div> -->
+
+          </div>
+        </div>
       </div>
+      <div class="footer-bottom">
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="float-left white foot-0">Copyright &copy; 2020 Dulhan</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="float-right foot-0"><a href="" class="white">Design bY : TECH NICK</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   </footer>
+  <!-- Footer section end -->
 
-  <!-- Type Effect -->
-  <script src="js/typewriter.js"></script>
+
+  <!--====== Javascripts & Jquery ======-->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/circle-progress.min.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
